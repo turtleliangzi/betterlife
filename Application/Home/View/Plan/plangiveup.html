@@ -1,0 +1,53 @@
+<include file="./Application/Home/Public/Tpl/header.html" />
+<div id="bl-mypage-content">
+  <include file="./Application/Home/Public/Tpl/leftmenu.html" />
+  <div class="bl-mypage-middle">
+    <div class="bl-mypage-title">
+      <h4>我的计划&nbsp;&nbsp; <small style="color:#d9534f">已放弃!!!</small></h4>
+      <a class="btn btn-success" style="" href="/plan/addplan"><i class="fa fa-plus"></i>添加计划</a>
+    </div>
+    <empty name="plan">
+    <div style="width:100%;text-align:center">
+      <p style="line-height:30px;font-size:24px;">没有找到该计划的相关信息～～</p>
+    </div>
+    <else />
+    <div class="bl-mypage-myplan">
+      <div class="bl-label">
+        <span class="bl-label-title">计划名称</span>
+        <span class="bl-label-content">{$plan['title']}</span>
+        <input type="hidden" name="planid" value="{$plan['planid']}">
+      </div>
+      <div class="bl-label">
+        <span class="bl-label-title">涉及到的资源</span>
+        <span class="bl-label-content"><volist name="plan['resources']" id="resource">{$resource['rname']}、</volist></span>
+      </div>
+      <div class="bl-label">
+        <span class="bl-label-title">分类及标签</span>
+        <span class="bl-label-content"><i class="fa fa-list"></i>{$plan['category']['cname']}&nbsp;&nbsp;<i class="fa fa-tags"></i><volist name="plan['tags']" id="tag">{$tag['signname']}</volist></span> 
+      </div>
+      <div class="bl-label">
+        <span class="bl-label-title">计划简介</span>
+        <span class="bl-label-content"><textarea class="form-control" style="display:inline-block" disabled>{$plan['description']}</textarea></span>
+      </div>
+      <div class="bl-label">
+        <span class="bl-label-title">预计开始时间</span>
+        <span class="bl-label-content">{$plan['starttime'] | date="Y-m-d", ###}</span>
+      </div>
+      <div class="bl-label">
+        <span class="bl-label-title">预计结束时间</span>
+        <span class="bl-label-content">{$plan['endtime'] | date="Y-m-d", ###}</span>
+      </div>
+      <div class="bl-label">
+        <span class="bl-label-title">放弃原因</span>
+        <span class="bl-label-content"><textarea class="form-control" style="display:inline-block" disabled>{$plan['reason']}</textarea></span>
+      </div>
+      <div class="bl-buttons">
+        <button type="button" class="btn btn-info" id="pickup" style="margin:0px"><i class="fa fa-hourglass-start"></i>拾取计划</button>
+      </div>
+    </div>
+    </empty>
+  </div>
+</div>
+<script src="__JS__/plan.js"></script>
+<include file="./Application/Home/Public/Tpl/footer.html" />
+

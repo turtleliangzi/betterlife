@@ -1,0 +1,46 @@
+<include file="./Application/Home/Public/Tpl/header.html" />
+<div id="bl-mypage-content">
+  <include file="./Application/Home/Public/Tpl/leftmenu.html" />
+  <div class="bl-mypage-middle">
+    <div class="bl-mypage-title">
+      <h4>我的资源&nbsp;&nbsp; <small ><i style="color:#669966" class="fa fa-folder-open"></i>{$source['folder']['foldername']}</small></h4>
+    </div>
+    <empty name="source">
+    <div style="width:100%;text-align:center">
+      <p style="line-height:30px;font-size:24px;">没有找到该资源的相关信息～～</p>
+    </div>
+    <else />
+    <div class="bl-mypage-myplan">
+      <div class="bl-label">
+        <span class="bl-label-title">资源名称</span>
+        <span class="bl-label-content">{$source['rname']}</span>
+      </div>
+      <div class="bl-label">
+        <span class="bl-label-title">缩略图</span>
+        <span class="bl-label-content">
+          <img style="width:200px;height:100px;" src="/Uploads/{$source['thumb']}">
+        </span>
+      </div>
+      <div class="bl-label">
+        <span class="bl-label-title">分类及标签</span>
+         <span class="bl-label-content"><i class="fa fa-list"></i>{$source['categorys']['cname']}&nbsp;&nbsp;<i class="fa fa-tags"></i><volist name="source['tag']" id="tag">{$tag['signname']}</volist></span>
+      </div>
+      <div class="bl-label">
+        <span class="bl-label-title">存放地</span>
+        <span class="bl-label-content">{$source['storeplace']}</span>
+      </div>
+      <div class="bl-label">
+        <span class="bl-label-title">创建时间</span>
+        <span class="bl-label-content">{$source['createtime'] | date="Y-m-d", ###}</span>
+      </div>
+      <div class="bl-label">
+        <span class="bl-label-title">简介</span>
+        <span class="bl-label-content">{$source['introduction']}</span>
+      </div>
+    </div>
+    </empty>
+  </div>
+</div>
+<script src="__JS__/source.js"></script>
+<include file="./Application/Home/Public/Tpl/footer.html" />
+

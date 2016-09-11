@@ -1,0 +1,45 @@
+<include file="./Application/Home/Public/Tpl/header.html" />
+<div id="bl-mypage-content">
+  <include file="./Application/Home/Public/Tpl/leftmenu.html" />
+  <div class="bl-mypage-middle">
+    <div class="bl-mypage-title">
+      <h4>我的计划&nbsp;&nbsp; <small style="color:#669966">正在进行中...</small></h4>
+      <a  class="btn btn-success" style="" href="/plan/addplan"><i class="fa fa-plus"></i>添加计划</a>
+    </div>
+    <empty name="planList">
+    <div style="width:100%;text-align:center">
+      <p style="line-height:30px;font-size:24px;">没有找到正在进行的计划～～</p>
+    </div>
+    <else />
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>计划名称</th>
+          <th>开始时间</th>
+          <th>计划结束时间</th>
+          <th>状态</th>
+        </tr>
+      </thead>
+      <tbody>
+        <foreach name="planList" item="plan" key="k">
+        <tr>
+          <td>{$k+1}</td>
+          <td><a href="/plan/planongoing?planid={$plan['planid']}">{$plan['title']}</a></td>
+          <td>{$plan['starttime'] | date='Y-m-d', ###}</td>
+          <td>{$plan['endtime'] | date='Y-m-d', ###}</td>
+          <td>
+            <if condition="$plan['days'] == 1">
+            即将结束
+            <else />
+            离预期还剩{$plan['days']}天
+            </if>
+          </td>
+        </tr>
+        </foreach>
+      </tbody>
+    </table>
+    </empty>
+  </div>
+</div>
+<include file="./Application/Home/Public/Tpl/footer.html" />

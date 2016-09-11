@@ -1,0 +1,1230 @@
+[ 2015-08-23T00:52:31+08:00 ] 123.125.71.34 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant Mypage - assumed 'Mypage' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006258s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000424s ]
+
+[ 2015-08-23T01:47:34+08:00 ] 120.26.55.211 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant Mypage - assumed 'Mypage' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006379s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006417s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2015-08-23T01:58:23+08:00 ] 123.125.71.113 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant Mypage - assumed 'Mypage' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006577s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006628s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000506s ]
+
+[ 2015-08-23T01:59:13+08:00 ] 61.160.213.110 http://www.baidu.com/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant Mypage - assumed 'Mypage' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006216s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2015-08-23T02:21:44+08:00 ] 182.118.55.186 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant Mypage - assumed 'Mypage' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006194s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000381s ]
+
+[ 2015-08-23T02:53:16+08:00 ] 123.125.71.113 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant Mypage - assumed 'Mypage' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006705s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000388s ]
+
+[ 2015-08-23T02:56:51+08:00 ] 220.181.108.81 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant Mypage - assumed 'Mypage' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006455s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000372s ]
+
+[ 2015-08-23T04:03:25+08:00 ] 220.181.108.161 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant Mypage - assumed 'Mypage' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007737s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007795s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000430s ]
+
+[ 2015-08-23T04:56:21+08:00 ] 123.125.71.111 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant Mypage - assumed 'Mypage' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006971s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2015-08-23T05:01:41+08:00 ] 220.181.108.123 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant Mypage - assumed 'Mypage' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006996s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007036s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000388s ]
+
+[ 2015-08-23T05:58:16+08:00 ] 123.125.71.83 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant Mypage - assumed 'Mypage' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006187s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006224s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000388s ]
+
+[ 2015-08-23T06:50:59+08:00 ] 123.125.71.20 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant Mypage - assumed 'Mypage' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006900s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006939s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000425s ]
+
+[ 2015-08-23T06:53:36+08:00 ] 182.118.60.79 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant Mypage - assumed 'Mypage' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007111s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000448s ]
+
+[ 2015-08-23T06:55:35+08:00 ] 220.181.108.149 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant Mypage - assumed 'Mypage' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007172s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007216s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000384s ]
+
+[ 2015-08-23T07:32:23+08:00 ] 112.74.201.245 http://search.yahoo.co.jp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant Mypage - assumed 'Mypage' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007413s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2015-08-23T08:34:16+08:00 ] 112.74.196.130 http://search.yahoo.co.jp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant Mypage - assumed 'Mypage' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006310s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006347s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000414s ]
+
+[ 2015-08-23T08:41:15+08:00 ] 112.74.209.179 http://search.yahoo.co.jp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant Mypage - assumed 'Mypage' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000463s ]
+
+[ 2015-08-23T08:52:57+08:00 ] 123.125.71.69 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant Mypage - assumed 'Mypage' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006572s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006609s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000422s ]
+
+[ 2015-08-23T08:57:41+08:00 ] 220.181.108.102 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant Mypage - assumed 'Mypage' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006079s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006116s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000412s ]
+
+[ 2015-08-23T09:53:39+08:00 ] 123.125.71.83 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant Mypage - assumed 'Mypage' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006567s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006606s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2015-08-23T11:00:57+08:00 ] 220.181.108.92 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant Mypage - assumed 'Mypage' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000381s ]
+
+[ 2015-08-23T11:48:20+08:00 ] 123.125.71.25 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant Mypage - assumed 'Mypage' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006869s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2015-08-23T12:50:31+08:00 ] 123.125.71.28 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000351s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant Mypage - assumed 'Mypage' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006213s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000454s ]
+
+[ 2015-08-23T13:11:10+08:00 ] 121.42.0.36 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant Mypage - assumed 'Mypage' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006095s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006132s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000378s ]
+
+[ 2015-08-23T13:13:48+08:00 ] 121.42.0.19 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant Mypage - assumed 'Mypage' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006235s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006274s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000390s ]
+
+[ 2015-08-23T14:01:43+08:00 ] 220.181.108.151 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant Mypage - assumed 'Mypage' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006375s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000405s ]
+
+[ 2015-08-23T14:56:25+08:00 ] 123.125.71.107 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant Mypage - assumed 'Mypage' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006161s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000371s ]
+
+[ 2015-08-23T15:00:32+08:00 ] 220.181.108.75 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant Mypage - assumed 'Mypage' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000373s ]
+
+[ 2015-08-23T15:46:57+08:00 ] 89.248.172.173 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant Mypage - assumed 'Mypage' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006616s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006707s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000482s ]
+
+[ 2015-08-23T15:54:44+08:00 ] 123.125.71.115 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant Mypage - assumed 'Mypage' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006152s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000378s ]
+
+[ 2015-08-23T16:09:50+08:00 ] 66.186.188.227 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant Mypage - assumed 'Mypage' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006261s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000176s ]
+INFO: 
+INFO: 
+INFO: 
+
+[ 2015-08-23T16:09:50+08:00 ] 66.186.188.227 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant Mypage - assumed 'Mypage' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006524s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006572s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000383s ]
+
+[ 2015-08-23T17:12:40+08:00 ] 139.196.13.106 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant Mypage - assumed 'Mypage' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006315s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006355s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000378s ]
+
+[ 2015-08-23T17:50:40+08:00 ] 123.125.71.78 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant Mypage - assumed 'Mypage' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006335s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000420s ]
+
+[ 2015-08-23T19:56:18+08:00 ] 123.125.71.40 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant Mypage - assumed 'Mypage' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006255s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000420s ]
+
+[ 2015-08-23T20:01:11+08:00 ] 220.181.108.75 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant Mypage - assumed 'Mypage' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006290s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006327s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000383s ]
+
+[ 2015-08-23T21:01:29+08:00 ] 220.181.108.156 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant Mypage - assumed 'Mypage' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007225s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007266s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000408s ]
+
+[ 2015-08-23T22:02:53+08:00 ] 220.181.108.162 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant Mypage - assumed 'Mypage' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006535s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006583s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000424s ]
+
+[ 2015-08-23T22:38:42+08:00 ] 98.126.163.98 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant Mypage - assumed 'Mypage' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006832s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000447s ]
+
+[ 2015-08-23T22:56:48+08:00 ] 220.181.108.84 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant Mypage - assumed 'Mypage' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006176s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000376s ]
+
+[ 2015-08-23T23:29:13+08:00 ] 115.238.241.9 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant Mypage - assumed 'Mypage' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+NOTIC: [2] Division by zero /var/www/betterlife/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006518s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000394s ]
+

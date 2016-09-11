@@ -1,0 +1,3227 @@
+[ 2015-09-22T00:02:03+08:00 ] 110.85.5.77 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_article` WHERE `share` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 14 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 21 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 22 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 27 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 28 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006568s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000362s ]
+
+[ 2015-09-22T00:02:03+08:00 ] 110.85.5.77 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_article` WHERE `share` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 4 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 13 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 14 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 21 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 22 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 27 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 28 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006742s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000414s ]
+
+[ 2015-09-22T00:02:19+08:00 ] 222.204.1.5 /index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_article` WHERE `share` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 4 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 14 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 21 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 22 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 27 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 28 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006878s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000437s ]
+
+[ 2015-09-22T00:04:11+08:00 ] 110.85.5.77 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bl_article` WHERE `share` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 4 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 13 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 14 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 21 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 22 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 27 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 28 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007038s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000435s ]
+
+[ 2015-09-22T00:04:12+08:00 ] 120.39.244.111 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `bl_article` WHERE `share` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 4 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 13 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 14 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 21 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 22 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 27 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 28 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006738s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000451s ]
+
+[ 2015-09-22T00:05:23+08:00 ] 110.85.5.77 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_article` WHERE `share` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 4 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 13 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 14 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 21 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 22 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 27 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 28 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007372s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000420s ]
+
+[ 2015-09-22T00:05:24+08:00 ] 110.85.5.77 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bl_article` WHERE `share` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 4 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 13 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 14 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 21 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 22 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 27 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 28 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006731s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000392s ]
+
+[ 2015-09-22T00:06:00+08:00 ] 220.181.108.148 /index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+ERR: 无法加载控制器:Home
+
+[ 2015-09-22T00:10:37+08:00 ] 222.204.1.5 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bl_article` WHERE `share` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 4 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 13 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 14 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 21 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 22 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 27 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 28 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007470s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007520s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000463s ]
+
+[ 2015-09-22T00:18:03+08:00 ] 222.204.1.5 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_article` WHERE `share` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 4 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 13 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 14 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 21 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 22 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 27 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 28 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006679s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006720s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2015-09-22T00:18:10+08:00 ] 222.204.1.5 /mypage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_plan` WHERE `status` = 0 AND `uid` = 25 HAVING unix_timestamp(curdate()) >= starttime  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_plan` WHERE `status` = 0 AND `uid` = 25 HAVING unix_timestamp(curdate()) >= starttime  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_plan` WHERE `uid` = 25 AND `status` = 1  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007292s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000527s ]
+
+[ 2015-09-22T00:18:23+08:00 ] 222.204.1.5 /plan/planongoing?planid=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_plan` WHERE `status` = 0 AND `uid` = 25 HAVING unix_timestamp(curdate()) >= starttime  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_plan` WHERE `planid` = 6 AND `uid` = 25 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_plan` WHERE `planid` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 7 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 16 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_resource` [ RunTime:0.0004s ]
+SQL: SELECT * FROM bl_resource r INNER JOIN  bl_plan_resource pr on r.rid=pr.resource  WHERE `plan` = '6'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_plan_progress` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `bl_plan_progress` WHERE `planid` = 6  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009681s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009728s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000459s ]
+
+[ 2015-09-22T00:26:09+08:00 ] 222.204.1.5 /source/addsource
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `bl_resource` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `bl_resource` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_category` WHERE ( status=1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_resource_folder` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_resource_folder`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008161s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008205s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000425s ]
+
+[ 2015-09-22T00:26:12+08:00 ] 222.204.1.5 /index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bl_article` WHERE `share` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 4 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 13 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 14 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 21 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 22 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 27 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 28 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007312s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000435s ]
+
+[ 2015-09-22T00:39:20+08:00 ] 220.181.108.81 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_article` WHERE `share` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 13 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 14 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 21 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 22 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 27 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 28 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006609s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006650s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000372s ]
+
+[ 2015-09-22T01:25:20+08:00 ] 222.204.1.5 /mypage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_plan` WHERE `status` = 0 AND `uid` = 25 HAVING unix_timestamp(curdate()) >= starttime  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_plan` WHERE `status` = 0 AND `uid` = 25 HAVING unix_timestamp(curdate()) >= starttime  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_plan` WHERE `uid` = 25 AND `status` = 1  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2015-09-22T01:25:23+08:00 ] 222.204.1.5 /plan/planongoing?planid=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bl_plan` WHERE `status` = 0 AND `uid` = 25 HAVING unix_timestamp(curdate()) >= starttime  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_plan` WHERE `planid` = 6 AND `uid` = 25 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_plan` WHERE `planid` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 7 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 16 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_resource` [ RunTime:0.0005s ]
+SQL: SELECT * FROM bl_resource r INNER JOIN  bl_plan_resource pr on r.rid=pr.resource  WHERE `plan` = '6'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_plan_progress` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_plan_progress` WHERE `planid` = 6  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009529s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009575s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000455s ]
+
+[ 2015-09-22T01:28:27+08:00 ] 222.204.1.5 /plan/addProgress
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_plan` WHERE `status` = 0 AND `uid` = 25 HAVING unix_timestamp(curdate()) >= starttime  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant addProgress - assumed 'addProgress' /var/www/betterlife/Application/Home/Controller/PlanController.class.php 第 82 行.
+SQL: SELECT * FROM `bl_plan` WHERE `planid` = 6 AND `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_plan_progress` [ RunTime:0.0005s ]
+SQL: INSERT INTO `bl_plan_progress` (`content`,`time`,`planid`) VALUES ('书法讲究的是整体美，因此他的美往往就取决于那么关键性的几笔。','1442851200','6') [ RunTime:0.0002s ]
+
+[ 2015-09-22T01:28:29+08:00 ] 222.204.1.5 /plan/planongoing?planid=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_plan` WHERE `status` = 0 AND `uid` = 25 HAVING unix_timestamp(curdate()) >= starttime  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_plan` WHERE `planid` = 6 AND `uid` = 25 AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_plan` WHERE `planid` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 7 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 16 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_resource` [ RunTime:0.0004s ]
+SQL: SELECT * FROM bl_resource r INNER JOIN  bl_plan_resource pr on r.rid=pr.resource  WHERE `plan` = '6'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_plan_progress` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bl_plan_progress` WHERE `planid` = 6  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009081s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2015-09-22T01:38:49+08:00 ] 223.104.10.221 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bl_article` WHERE `share` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 13 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 14 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 21 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 22 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 27 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 28 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006838s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000431s ]
+
+[ 2015-09-22T01:39:12+08:00 ] 223.104.10.221 /mypage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+
+[ 2015-09-22T01:39:12+08:00 ] 223.104.10.221 /index.php/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004263s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004308s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000422s ]
+
+[ 2015-09-22T01:39:28+08:00 ] 223.104.10.221 /login/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant doLogin - assumed 'doLogin' /var/www/betterlife/Application/Home/Controller/LoginController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `nickname` = 'turtlell' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-09-22T01:39:28+08:00 ] 223.104.10.221 /mypage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_plan` WHERE `status` = 0 AND `uid` = 25 HAVING unix_timestamp(curdate()) >= starttime  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_plan` WHERE `status` = 0 AND `uid` = 25 HAVING unix_timestamp(curdate()) >= starttime  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_plan` WHERE `uid` = 25 AND `status` = 1  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007281s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000403s ]
+
+[ 2015-09-22T01:39:35+08:00 ] 223.104.10.221 /plan/addplan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_plan` WHERE `status` = 0 AND `uid` = 25 HAVING unix_timestamp(curdate()) >= starttime  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_category` WHERE ( status=1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_resource` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_resource` WHERE `uid` = 25 AND `status` = 1  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007691s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007780s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2015-09-22T01:40:21+08:00 ] 223.104.10.221 /source/addsource
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `bl_resource` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_resource` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_category` WHERE ( status=1 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_resource_folder` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bl_resource_folder`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007639s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007683s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000421s ]
+
+[ 2015-09-22T01:40:54+08:00 ] 223.104.10.221 /uploadfile/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /var/www/betterlife/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2015-09-22T01:41:01+08:00 ] 223.104.10.221 /article/briefsummarylist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0007s ]
+NOTIC: [2] Creating default object from empty value /var/www/betterlife/Application/Home/Logic/ArticleLogic.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_article` WHERE `type` = 1 AND `uid` = 25 ORDER BY createtime desc  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008180s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000414s ]
+
+[ 2015-09-22T01:41:07+08:00 ] 223.104.10.221 /article/addbriefsummary
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0008s ]
+NOTIC: [2] Creating default object from empty value /var/www/betterlife/Application/Home/Logic/ArticleLogic.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+NOTIC: [8] Undefined variable: article /var/www/betterlife/Application/Runtime/Cache/Home/5f61c0b3b143aa92c00ce49339f6cf12.php 第 114 行.
+NOTIC: [8] Undefined variable: article /var/www/betterlife/Application/Runtime/Cache/Home/5f61c0b3b143aa92c00ce49339f6cf12.php 第 115 行.
+NOTIC: [8] Undefined variable: article /var/www/betterlife/Application/Runtime/Cache/Home/5f61c0b3b143aa92c00ce49339f6cf12.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007353s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007394s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000443s ]
+
+[ 2015-09-22T02:57:53+08:00 ] 111.206.36.133 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_article` WHERE `share` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 4 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 13 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 14 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 21 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 22 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 27 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 28 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007708s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000416s ]
+
+[ 2015-09-22T05:49:10+08:00 ] 182.118.21.210 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+ERR: 无法加载控制器:Robots.txt
+
+[ 2015-09-22T06:45:01+08:00 ] 112.74.197.165 www.google.co.uk:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bl_article` WHERE `share` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 13 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 14 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 21 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 22 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 27 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 28 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006632s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000385s ]
+
+[ 2015-09-22T06:45:01+08:00 ] 112.74.197.165 www.google.co.uk:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_article` WHERE `share` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 4 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 13 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 14 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 21 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 22 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 27 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 28 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006563s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2015-09-22T07:47:09+08:00 ] 46.185.47.80 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bl_article` WHERE `share` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 4 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 13 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 14 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 21 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 22 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 27 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 28 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006577s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000375s ]
+
+[ 2015-09-22T07:47:09+08:00 ] 46.185.47.80 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_article` WHERE `share` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 4 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 13 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 14 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 21 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 22 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 27 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 28 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000441s ]
+
+[ 2015-09-22T10:56:30+08:00 ] 178.239.50.139 /panel/phpmoadmin/moadmin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+ERR: 无法加载控制器:Panel
+
+[ 2015-09-22T11:19:45+08:00 ] 113.108.82.22 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+ERR: 无法加载控制器:Admin.php
+
+[ 2015-09-22T11:19:50+08:00 ] 113.108.82.22 /misc.php?mod=faq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+ERR: 无法加载控制器:Misc.php
+
+[ 2015-09-22T12:06:31+08:00 ] 223.65.189.97 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_article` WHERE `share` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 4 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 14 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 21 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 22 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 27 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 28 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006645s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006687s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000378s ]
+
+[ 2015-09-22T12:06:35+08:00 ] 223.65.189.97 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+
+[ 2015-09-22T12:09:57+08:00 ] 111.206.36.8 /plan/addplan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+
+[ 2015-09-22T12:09:57+08:00 ] 111.206.36.8 /index.php/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004583s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004631s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000442s ]
+
+[ 2015-09-22T12:41:01+08:00 ] 223.65.189.97 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_article` WHERE `share` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 4 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 13 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 14 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 21 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 22 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 27 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 28 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007455s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007498s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000691s ]
+
+[ 2015-09-22T12:41:02+08:00 ] 223.65.189.97 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_article` WHERE `share` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 14 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 21 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 22 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 27 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 28 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007051s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2015-09-22T12:41:02+08:00 ] 223.65.189.97 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `bl_article` WHERE `share` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 14 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 21 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 22 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 27 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 28 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006644s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000385s ]
+
+[ 2015-09-22T12:41:02+08:00 ] 223.65.189.97 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+
+[ 2015-09-22T12:41:02+08:00 ] 223.65.189.97 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bl_article` WHERE `share` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 4 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 13 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 14 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 21 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 22 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 27 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 28 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007073s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2015-09-22T12:41:02+08:00 ] 223.65.189.97 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+
+[ 2015-09-22T13:04:56+08:00 ] 115.29.170.7 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bl_article` WHERE `share` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 14 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 21 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 22 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 27 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 28 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006890s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000446s ]
+
+[ 2015-09-22T13:04:56+08:00 ] 115.29.170.7 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_article` WHERE `share` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 4 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 13 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 14 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 21 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 22 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 27 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 28 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007092s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007135s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000407s ]
+
+[ 2015-09-22T13:04:56+08:00 ] 115.29.170.7 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+
+[ 2015-09-22T13:48:34+08:00 ] 222.204.1.5 /mypage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bl_plan` WHERE `status` = 0 AND `uid` = 25 HAVING unix_timestamp(curdate()) >= starttime  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_plan` WHERE `status` = 0 AND `uid` = 25 HAVING unix_timestamp(curdate()) >= starttime  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_plan` WHERE `uid` = 25 AND `status` = 1  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007536s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007580s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000404s ]
+
+[ 2015-09-22T13:49:08+08:00 ] 222.204.1.5 /plan/planongoing?planid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_plan` WHERE `status` = 0 AND `uid` = 25 HAVING unix_timestamp(curdate()) >= starttime  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_plan` WHERE `planid` = 5 AND `uid` = 25 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_plan` WHERE `planid` = 5 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 15 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 18 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 19 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_resource` [ RunTime:0.0005s ]
+SQL: SELECT * FROM bl_resource r INNER JOIN  bl_plan_resource pr on r.rid=pr.resource  WHERE `plan` = '5'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_plan_progress` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_plan_progress` WHERE `planid` = 5  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009376s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000440s ]
+
+[ 2015-09-22T14:53:55+08:00 ] 121.42.0.37 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_article` WHERE `share` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 13 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 14 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 21 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 22 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 27 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 28 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006460s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000380s ]
+
+[ 2015-09-22T15:21:48+08:00 ] 112.74.129.127 www.google.co.uk:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bl_article` WHERE `share` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 4 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 13 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 14 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 21 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 22 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 27 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 28 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007505s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007553s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000411s ]
+
+[ 2015-09-22T15:21:48+08:00 ] 112.74.129.127 www.google.co.uk:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_article` WHERE `share` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 4 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 13 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 14 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 21 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 22 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 27 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 28 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000441s ]
+
+[ 2015-09-22T15:32:41+08:00 ] 222.204.1.5 /login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003863s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000349s ]
+
+[ 2015-09-22T15:32:49+08:00 ] 222.204.1.5 /login/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant doLogin - assumed 'doLogin' /var/www/betterlife/Application/Home/Controller/LoginController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bl_user` WHERE `nickname` = '廖亮' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-09-22T15:32:58+08:00 ] 222.204.1.5 /login/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant doLogin - assumed 'doLogin' /var/www/betterlife/Application/Home/Controller/LoginController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bl_user` WHERE `nickname` = 'turtle' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-09-22T15:33:03+08:00 ] 222.204.1.5 /login/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant doLogin - assumed 'doLogin' /var/www/betterlife/Application/Home/Controller/LoginController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `nickname` = 'turtle' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-09-22T15:33:07+08:00 ] 222.204.1.5 /login/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant doLogin - assumed 'doLogin' /var/www/betterlife/Application/Home/Controller/LoginController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `nickname` = 'turtle' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-09-22T15:33:13+08:00 ] 222.204.1.5 /login/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant doLogin - assumed 'doLogin' /var/www/betterlife/Application/Home/Controller/LoginController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bl_user` WHERE `nickname` = 'turtle' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-09-22T15:33:13+08:00 ] 222.204.1.5 /login/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant doLogin - assumed 'doLogin' /var/www/betterlife/Application/Home/Controller/LoginController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `nickname` = 'turtle' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-09-22T15:33:14+08:00 ] 222.204.1.5 /login/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant doLogin - assumed 'doLogin' /var/www/betterlife/Application/Home/Controller/LoginController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bl_user` WHERE `nickname` = 'turtle' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-09-22T15:33:14+08:00 ] 222.204.1.5 /login/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant doLogin - assumed 'doLogin' /var/www/betterlife/Application/Home/Controller/LoginController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bl_user` WHERE `nickname` = 'turtle' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-09-22T15:33:15+08:00 ] 222.204.1.5 /login/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant doLogin - assumed 'doLogin' /var/www/betterlife/Application/Home/Controller/LoginController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `nickname` = 'turtle' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-09-22T15:33:24+08:00 ] 222.204.1.5 /login/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant doLogin - assumed 'doLogin' /var/www/betterlife/Application/Home/Controller/LoginController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `nickname` = 'turtle' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-09-22T15:33:26+08:00 ] 222.204.1.5 /login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000351s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004229s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004271s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000404s ]
+
+[ 2015-09-22T15:33:32+08:00 ] 222.204.1.5 /login/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant doLogin - assumed 'doLogin' /var/www/betterlife/Application/Home/Controller/LoginController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bl_user` WHERE `nickname` = 'turtle' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-09-22T15:33:41+08:00 ] 222.204.1.5 /login/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant doLogin - assumed 'doLogin' /var/www/betterlife/Application/Home/Controller/LoginController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `nickname` = 'turtle' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-09-22T15:33:57+08:00 ] 222.204.1.5 /register/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004120s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2015-09-22T15:34:10+08:00 ] 222.204.1.5 /register/doregister
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant doRegister - assumed 'doRegister' /var/www/betterlife/Application/Home/Controller/RegisterController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `nickname` = 'turtletl'  [ RunTime:0.0002s ]
+SQL: INSERT INTO `bl_user` (`password`,`salt`,`nickname`,`registertime`) VALUES ('3d389a528fcf673929cc6f68d8e50a45','585980','turtletl','1442907250') [ RunTime:0.0002s ]
+
+[ 2015-09-22T15:34:10+08:00 ] 222.204.1.5 /login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000338s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004655s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004717s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2015-09-22T15:45:59+08:00 ] 121.40.65.193 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_article` WHERE `share` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 14 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 21 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 22 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 27 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 28 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007194s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000418s ]
+
+[ 2015-09-22T16:09:50+08:00 ] 222.204.1.5 /register/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+ERR: 非法操作:login
+
+[ 2015-09-22T16:10:00+08:00 ] 222.204.1.5 /login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004086s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000362s ]
+
+[ 2015-09-22T16:10:09+08:00 ] 222.204.1.5 /login/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant doLogin - assumed 'doLogin' /var/www/betterlife/Application/Home/Controller/LoginController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `nickname` = 'turtletl' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-09-22T16:10:09+08:00 ] 222.204.1.5 /mypage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 28 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_plan` WHERE `status` = 0 AND `uid` = 28 HAVING unix_timestamp(curdate()) >= starttime  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 28 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_plan` WHERE `status` = 0 AND `uid` = 28 HAVING unix_timestamp(curdate()) >= starttime  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_plan` WHERE `uid` = 28 AND `status` = 1  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007085s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000448s ]
+
+[ 2015-09-22T16:10:25+08:00 ] 222.204.1.5 /source/mysourcelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `bl_resource` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_resource` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 28 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_resource_folder` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_resource_folder` WHERE `uid` = 28  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006573s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2015-09-22T16:10:43+08:00 ] 222.204.1.5 /source/addsource
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `bl_resource` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `bl_resource` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 28 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_category` WHERE ( status=1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_resource_folder` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bl_resource_folder`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007709s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000397s ]
+
+[ 2015-09-22T16:19:57+08:00 ] 222.204.1.5 /browserconfig.xml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+ERR: 无法加载控制器:Browserconfig.xml
+
+[ 2015-09-22T16:57:29+08:00 ] 121.42.0.34 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_article` WHERE `share` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 4 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 13 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 14 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 21 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 22 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 27 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 28 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007138s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007180s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000457s ]
+
+[ 2015-09-22T17:08:17+08:00 ] 121.42.0.33 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_article` WHERE `share` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 4 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 13 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 14 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 21 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 22 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 27 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 28 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006538s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006580s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000391s ]
+
+[ 2015-09-22T17:11:57+08:00 ] 220.181.108.119 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_article` WHERE `share` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 13 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 14 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 21 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 22 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 27 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 28 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000394s ]
+
+[ 2015-09-22T17:38:28+08:00 ] 121.42.0.18 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_article` WHERE `share` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 13 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 14 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 21 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 22 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 27 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 28 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006590s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006674s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000627s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000791s ]
+
+[ 2015-09-22T17:45:17+08:00 ] 220.181.108.163 /index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bl_article` WHERE `share` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 4 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 13 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 14 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 21 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 22 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 27 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 28 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016240s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016287s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001467s ]
+
+[ 2015-09-22T17:45:17+08:00 ] 123.125.71.36 /mypage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001418s ]
+
+[ 2015-09-22T17:45:17+08:00 ] 123.125.71.54 /index.php/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003898s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003939s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000366s ]
+
+[ 2015-09-22T17:47:30+08:00 ] 220.181.108.78 /register/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007111s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000395s ]
+
+[ 2015-09-22T17:47:30+08:00 ] 123.125.71.32 /login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001767s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004467s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004511s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000576s ]
+
+[ 2015-09-22T18:49:38+08:00 ] 218.249.78.2 /manager/html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+ERR: 无法加载控制器:Manager
+
+[ 2015-09-22T19:07:42+08:00 ] 222.204.1.5 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_article` WHERE `share` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 4 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 13 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 14 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 21 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 22 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 27 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 28 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007128s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007175s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000394s ]
+
+[ 2015-09-22T19:07:43+08:00 ] 222.204.1.5 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+
+[ 2015-09-22T19:07:43+08:00 ] 222.204.1.5 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+
+[ 2015-09-22T19:07:44+08:00 ] 222.204.1.5 /mypage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+
+[ 2015-09-22T19:07:44+08:00 ] 222.204.1.5 /index.php/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000351s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004288s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004364s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000388s ]
+
+[ 2015-09-22T19:07:51+08:00 ] 222.204.1.5 /login/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant doLogin - assumed 'doLogin' /var/www/betterlife/Application/Home/Controller/LoginController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `nickname` = 'turtlell' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-09-22T19:07:51+08:00 ] 222.204.1.5 /mypage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_plan` WHERE `status` = 0 AND `uid` = 25 HAVING unix_timestamp(curdate()) >= starttime  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_plan` WHERE `status` = 0 AND `uid` = 25 HAVING unix_timestamp(curdate()) >= starttime  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_plan` WHERE `uid` = 25 AND `status` = 1  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006977s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000391s ]
+
+[ 2015-09-22T19:07:55+08:00 ] 222.204.1.5 /plan/addplan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_plan` WHERE `status` = 0 AND `uid` = 25 HAVING unix_timestamp(curdate()) >= starttime  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_category` WHERE ( status=1 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_resource` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_resource` WHERE `uid` = 25 AND `status` = 1  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007590s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000409s ]
+
+[ 2015-09-22T19:07:58+08:00 ] 222.204.1.5 /source/addsource
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+SQL: SHOW COLUMNS FROM `bl_resource` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_resource` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bl_category` WHERE ( status=1 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_resource_folder` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_resource_folder`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007275s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007316s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000380s ]
+
+[ 2015-09-22T19:12:20+08:00 ] 141.212.121.128 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_article` WHERE `share` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 13 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 14 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 21 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 22 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 27 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 28 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2015-09-22T19:21:15+08:00 ] 222.204.1.5 /uploadfile/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /var/www/betterlife/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2015-09-22T19:21:42+08:00 ] 222.204.1.5 /source/addsource
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `bl_resource` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_resource` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bl_category` WHERE ( status=1 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_resource_folder` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_resource_folder`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008492s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2015-09-22T19:23:45+08:00 ] 222.204.1.5 /uploadfile/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /var/www/betterlife/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2015-09-22T19:23:49+08:00 ] 222.204.1.5 /category/getsign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bl_sign` WHERE `category` = 9 AND `status` = 1  [ RunTime:0.0002s ]
+
+[ 2015-09-22T19:25:10+08:00 ] 222.204.1.5 /category/getsign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bl_sign` WHERE `category` = 9 AND `status` = 1  [ RunTime:0.0002s ]
+
+[ 2015-09-22T19:37:00+08:00 ] 222.204.1.5 /source/createsource
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+SQL: SHOW COLUMNS FROM `bl_resource` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_resource` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant createSource - assumed 'createSource' /var/www/betterlife/Application/Home/Controller/SourceController.class.php 第 50 行.
+SQL: SHOW COLUMNS FROM `bl_resource` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bl_resource` WHERE `rname` = 'Restful web apis' AND `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `bl_resource` (`rname`,`thumb`,`folderid`,`category`,`tags`,`introduction`,`storeplace`,`uid`,`createtime`) VALUES ('Restful web apis','2015-09-22/56013a411ce08.jpg','1','9','[\"22\",\"29\"]','本书是针对RESTful API 的实用指南，通过展示各种用来创建高可用应用的强大工具，讲解REST的深层原理，以及介绍超媒体API的策略，使读者得以在将以上内容融会贯通后，设计出让客户满意的RESTful API。本书极具权威性与前瞻性，既代表了API领域的前沿趋势，也覆盖了API领域的重要实践。&lt;br /&gt;','工作室书架','25','1442921820') [ RunTime:0.0002s ]
+
+[ 2015-09-22T19:37:00+08:00 ] 222.204.1.5 /source/mysourcelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `bl_resource` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `bl_resource` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_resource_folder` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_resource_folder` WHERE `uid` = 25  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012874s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001542s ]
+
+[ 2015-09-22T19:37:03+08:00 ] 222.204.1.5 /source/mysource?folderid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+SQL: SHOW COLUMNS FROM `bl_resource` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_resource` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_resource_folder` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bl_resource_folder` WHERE `folderid` = 1 AND `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_resource` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `bl_resource` WHERE `folderid` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 15 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 18 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 19 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: introduction /var/www/betterlife/Application/Home/Model/SourceModel.class.php 第 48 行.
+NOTIC: [8] Undefined index: introduction /var/www/betterlife/Application/Home/Model/SourceModel.class.php 第 49 行.
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 22 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 29 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: introduction /var/www/betterlife/Application/Home/Model/SourceModel.class.php 第 48 行.
+NOTIC: [8] Undefined index: introduction /var/www/betterlife/Application/Home/Model/SourceModel.class.php 第 49 行.
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: introduction /var/www/betterlife/Application/Home/Model/SourceModel.class.php 第 48 行.
+NOTIC: [8] Undefined index: introduction /var/www/betterlife/Application/Home/Model/SourceModel.class.php 第 49 行.
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 17 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: introduction /var/www/betterlife/Application/Home/Model/SourceModel.class.php 第 48 行.
+NOTIC: [8] Undefined index: introduction /var/www/betterlife/Application/Home/Model/SourceModel.class.php 第 49 行.
+SQL: SELECT * FROM `bl_resource_folder` WHERE `folderid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008889s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008945s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000386s ]
+
+[ 2015-09-22T19:37:19+08:00 ] 222.204.1.5 /source/source?rid=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `bl_resource` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_resource` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_resource` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_resource` WHERE `rid` = 11 AND `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_resource` WHERE `rid` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 22 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 29 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_resource_folder` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_resource_folder` WHERE `folderid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007202s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000381s ]
+
+[ 2015-09-22T19:37:29+08:00 ] 222.204.1.5 /plan/planwilldolist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_plan` WHERE `status` = 0 AND `uid` = 25 HAVING unix_timestamp(curdate()) >= starttime  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_plan` WHERE `uid` = 25 AND `status` = 0  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006868s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000527s ]
+
+[ 2015-09-22T19:37:31+08:00 ] 222.204.1.5 /plan/addplan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_plan` WHERE `status` = 0 AND `uid` = 25 HAVING unix_timestamp(curdate()) >= starttime  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_category` WHERE ( status=1 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_resource` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bl_resource` WHERE `uid` = 25 AND `status` = 1  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008253s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008301s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000448s ]
+
+[ 2015-09-22T19:38:07+08:00 ] 222.204.1.5 /category/getsign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bl_sign` WHERE `category` = 9 AND `status` = 1  [ RunTime:0.0002s ]
+
+[ 2015-09-22T19:38:16+08:00 ] 222.204.1.5 /category/getsign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_sign` WHERE `category` = 1 AND `status` = 1  [ RunTime:0.0002s ]
+
+[ 2015-09-22T19:38:22+08:00 ] 222.204.1.5 /category/getsign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bl_sign` WHERE `category` = 1 AND `status` = 1  [ RunTime:0.0002s ]
+
+[ 2015-09-22T19:38:28+08:00 ] 222.204.1.5 /category/getsign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bl_sign` WHERE `category` = 9 AND `status` = 1  [ RunTime:0.0003s ]
+
+[ 2015-09-22T19:39:51+08:00 ] 222.204.1.5 /plan/createplan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_plan` WHERE `status` = 0 AND `uid` = 25 HAVING unix_timestamp(curdate()) >= starttime  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant createPlan - assumed 'createPlan' /var/www/betterlife/Application/Home/Controller/PlanController.class.php 第 94 行.
+SQL: INSERT INTO `bl_plan` (`title`,`uid`,`category`,`tags`,`starttime`,`endtime`,`description`) VALUES ('了解RESTful WEB APIs','25','9','[\"22\",\"29\"]','1442937600','1444147200','了解RESTful web apis 的使用模式，使用restfull api来构建一套api系统。&lt;br /&gt;') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_plan_resource` [ RunTime:0.0003s ]
+SQL: INSERT INTO `bl_plan_resource` (`resource`,`plan`) VALUES ('11','7') [ RunTime:0.0001s ]
+
+[ 2015-09-22T19:39:51+08:00 ] 222.204.1.5 /mypage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_plan` WHERE `status` = 0 AND `uid` = 25 HAVING unix_timestamp(curdate()) >= starttime  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_plan` WHERE `status` = 0 AND `uid` = 25 HAVING unix_timestamp(curdate()) >= starttime  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_plan` WHERE `uid` = 25 AND `status` = 1  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007443s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007497s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000409s ]
+
+[ 2015-09-22T19:39:55+08:00 ] 222.204.1.5 /plan/planwilldolist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `bl_plan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_plan` WHERE `status` = 0 AND `uid` = 25 HAVING unix_timestamp(curdate()) >= starttime  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_plan` WHERE `uid` = 25 AND `status` = 0  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006922s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000432s ]
+
+[ 2015-09-22T21:04:37+08:00 ] 123.125.71.80 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_article` WHERE `share` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 14 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 21 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 22 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 27 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 28 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007689s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000472s ]
+
+[ 2015-09-22T21:25:55+08:00 ] 61.135.190.69 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_article` WHERE `share` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 13 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 14 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 21 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 22 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 27 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 28 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007387s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000447s ]
+
+[ 2015-09-22T23:57:49+08:00 ] 103.240.16.119 http://www.example.com/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_article` WHERE `share` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_category` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_sign` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bl_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 14 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 21 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 22 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_category` WHERE `categoryid` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 27 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_sign` WHERE `signid` = 28 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bl_user` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006589s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000386s ]
+

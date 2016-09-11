@@ -1,0 +1,49 @@
+<include file="./Application/Home/Public/Tpl/header.html" />
+<div id="bl-mypage-content">
+  <include file="./Application/Home/Public/Tpl/leftmenu.html" />
+  <div class="bl-mypage-middle">
+    <div class="bl-mypage-title">
+      <h4>{$title}</h4>
+    </div>
+    <if condition="$title eq '编辑小结' AND $article eq ''">
+    <div style="width:100%;text-align:center">
+      <p style="line-height:30px;font-size:24px;">该文章不存在～～</p>
+    </div>
+
+    <else />
+    <div class="form-group" style="margin-top:10px">
+      <label for="briefsummary-title"> 标题</label>
+      <input type="text" class="form-control input-field" value="{$article['title']}" name="title" id="briefsummary-title" placeholder="请填写小结标题">
+      <input type="hidden" value="{$article['conclusionid']}" name="articleid">
+    </div>
+    <div class="form-group">
+      <label for="briefsummary-content">内容</label>
+      <textarea id="briefsummary-content" name="content" style="width:99%">{$article['content']}</textarea>
+    </div>
+    <div class=form-group" style="text-align:center;margin-top:20px;margin-bottom:10px;">
+      <if condition="$title eq '编辑小结'">
+      <button class="btn btn-success" id="edit-briefsummary">编辑小结</button>
+      <else />
+      <button class="btn btn-success" id="add-briefsummary">添加小结</button>
+      </if>
+    </div>
+    </if>
+  </div>
+</div>
+<div class="message" id="message">
+
+</div>
+
+<script charset="utf-8" src="/editor/kindeditor.js"></script>
+<script charset="utf-8" src="/editor/lang/zh_CN.js"></script>
+<script>
+KindEditor.ready(function(K) {
+  window.editor = K.create('#briefsummary-content', {
+    minHeight:'200px', 
+  }); 
+});
+</script>
+<script src="__JS__/article.js"></script>
+<include file="./Application/Home/Public/Tpl/footer.html" />
+
+

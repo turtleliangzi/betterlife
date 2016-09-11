@@ -1,0 +1,27 @@
+<include file="./Application/Home/Public/Tpl/header.html" />
+<div id="bl-mypage-content">
+  <include file="./Application/Home/Public/Tpl/leftmenu.html" />
+  <div class="bl-mypage-middle">
+    <h4>我的资源&nbsp;&nbsp;</h4>
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>文件夹名</th>
+          <th>创建时间</th>
+        </tr>
+      </thead>
+      <tbody>
+        <foreach name="folderList" item="folder" key="k">
+          <tr>
+          <td>{$k+1}</td>
+          <td><i class="fa fa-folder" style="color:#669966"></i><a href="./mysource?folderid={$folder['folderid']}">{$folder['foldername']}</a></td>
+          <td>{$folder['time'] | date="Y-m-d", ###}</td>
+          </tr>
+          </foreach>
+      </tbody>
+    </table>
+  </div>
+</div>
+<include file="./Application/Home/Public/Tpl/footer.html" />
+

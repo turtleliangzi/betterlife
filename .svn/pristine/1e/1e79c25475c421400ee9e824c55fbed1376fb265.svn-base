@@ -1,0 +1,74 @@
+<include file="./Application/Home/Public/Tpl/header.html" />
+<div id="bl-mypage-content">
+  <include file="./Application/Home/Public/Tpl/leftmenu.html" />
+  <div class="bl-mypage-middle">
+    <div class="bl-mypage-title">
+      <h4>我的计划&nbsp;&nbsp; <small style="color:#669966">已完成!!!</small></h4>
+      <a  class="btn btn-success" style="" href="/plan/addplan"><i class="fa fa-plus"></i>添加计划</a>
+    </div>
+    <empty name="plan">
+    <div style="width:100%;text-align:center">
+      <p style="line-height:30px;font-size:24px;">没有找到该计划的相关信息～～</p>
+    </div>
+    <else />
+    <div class="bl-mypage-myplan">
+      <div class="bl-label">
+        <span class="bl-label-title">计划名称</span>
+        <span class="bl-label-content">{$plan['title']}</span>
+      </div>
+      <div class="bl-label">
+        <span class="bl-label-title">涉及到的资源</span>
+        <span class="bl-label-content"><volist name="plan['resources']" id="resource">{$resource['rname']}、</volist></span>
+      </div>
+      <div class="bl-label">
+        <span class="bl-label-title">分类及标签</span>
+        <span class="bl-label-content"><i class="fa fa-list"></i>{$plan['category']['cname']}&nbsp;&nbsp;<i class="fa fa-tags"></i><volist name="plan['tags']" id="tag">{$tag['signname']}、</volist></span>
+      </div>
+      <div class="bl-label">
+        <span class="bl-label-title">计划简介</span>
+        <span class="bl-label-content"><textarea class="form-control" style="display:inline-block" disabled>{$plan['description']}</textarea></span>
+      </div>
+      <div class="bl-label">
+        <span class="bl-label-title">开始时间</span>
+        <span class="bl-label-content">{$plan['starttime'] | date="Y-m-d", ###}</span>
+      </div>
+      <div class="bl-label">
+        <span class="bl-label-title">预计结束时间</span>
+        <span class="bl-label-content">{$plan['endtime'] | date="Y-m-d", ###}</span>
+      </div>
+      <div class="bl-label">
+        <span class="bl-label-title">实际结束时间</span>
+        <span class="bl-label-content">{$plan['realendtime'] | date="Y-m-d", ###}</span>
+      </div>
+      <div class="bl-label">
+        <span class="bl-label-title">满意度</span>
+        <div class="rating">
+          <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+        </div>
+      </div>
+    </div>
+    <div class="bl-progress">
+      <h5 style="padding:20px;font-size:16px;font-weight:bold;">完成进度</h5>
+      <ul class="bl-progress-timeline">
+        <li class="bl-timeline-header">
+          <div class="btn btn-default">开始</div>
+        </li>
+        <foreach name="progressList" item="progress">
+        <li class="bl-timeline-item">
+          <div class="bl-timeline-wrap bl-timeline-info">
+            <span class="bl-timeline-date text-muted">{$progress['time'] | date="Y-m-d", ###}</span>
+            <div class="bl-timeline-content panel p-sm b-a">
+              <span class="arrow b-white left pull-top"></span>
+              <div>{$progress['content']}</div></div>
+          </div>
+        </li>
+        </foreach>
+        <li class="bl-timeline-header">
+          <div class="btn btn-default">完成</div>
+        </li>
+      </ul>
+    </div>
+    </empty>
+  </div>
+</div>
+<include file="./Application/Home/Public/Tpl/footer.html" />

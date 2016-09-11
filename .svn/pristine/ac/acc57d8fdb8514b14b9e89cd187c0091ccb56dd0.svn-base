@@ -1,0 +1,31 @@
+<include file="./Application/Home/Public/Tpl/header.html" />
+<div id="bl-mypage-content">
+  <include file="./Application/Home/Public/Tpl/leftmenu.html" />
+  <div class="bl-mypage-middle">
+    <div class="bl-mypage-title">
+      <h4><if condition="$article['type'] eq 1">我的小结</if><if condition="$article['type'] eq 2">我的随笔</if><if condition="$article['type'] eq 3">我的总结</if>&nbsp;&nbsp;</h4>
+    </div>    
+    <empty name="article">
+
+    <div style="width:100%;text-align:center">
+      <p style="line-height:30px;font-size:24px;">没有找到该文章的相关信息～～</p>
+    </div>
+    <else />
+    <h5 class="myarticle-title">
+      {$article['title']}
+    </h5>
+    <div class="myarticle-attr">
+      <em>{$article['createtime'] | date="Y-m-d H:m:d", ###}</em>
+      <if condition="$article['type'] eq 2 OR $article['type'] eq 3"><span style="margin-left:10px;"><i class="fa fa-list">{$article['categorys']['cname']}</i>&nbsp;&nbsp;<volist name="article['tag']" id="tag"><i class="fa fa-tag"></i>{$tag['signname']}</volist></span> </if>
+    </div>
+    <if condition="$article['type'] eq 3"><div class="myarticle-plan">
+      来源于计划：<span style="color:#777">{$article['plan']['title']}</span>
+    </div></if>
+    <div class="myarticle-content">
+      {$article['content']}
+    </div>
+    </empty>
+  </div>
+</div>
+<include file="./Application/Home/Public/Tpl/footer.html" />
+

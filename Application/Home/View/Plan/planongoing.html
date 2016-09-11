@@ -1,0 +1,125 @@
+<include file="./Application/Home/Public/Tpl/header.html" />
+<div id="bl-mypage-content">
+  <include file="./Application/Home/Public/Tpl/leftmenu.html" />
+  <div class="bl-mypage-middle" style="">
+    <div class="bl-mypage-title">
+      <h4>我的计划&nbsp;&nbsp; <small style="color:#669966">正在进行中...</small></h4>
+      <a  class="btn btn-success"  href="/plan/addplan"><i class="fa fa-plus"></i>添加计划</a>
+    </div>
+    <empty name="plan">
+    <div style="width:100%;text-align:center">
+      <p style="line-height:30px;font-size:24px;">没有找到该计划的相关信息～～</p>
+    </div>
+    <else />
+    <input type="hidden" value="{$plan['planid']}" name="planid">
+    <div class="bl-mypage-myplan">
+      <div class="bl-label">
+        <span class="bl-label-title">计划名称</span> 
+        <span class="bl-label-content">{$plan['title']}</span>
+      </div>
+      <div class="bl-label">
+        <span class="bl-label-title">涉及到的资源</span> 
+        <span class="bl-label-content"><volist name="plan['resources']" id="resource">{$resource['rname']}、 </volist></span>
+      </div>
+      <div class="bl-label">
+        <span class="bl-label-title">分类及标签</span> 
+        <span class="bl-label-content"><i class="fa fa-list"></i>{$plan['category']['cname']}&nbsp;&nbsp;<i class="fa fa-tags"></i><volist name="plan['tags']" id="tag">{$tag['signname']}</volist></span> 
+      </div>
+      <div class="bl-label">
+        <span class="bl-label-title">计划简介</span> 
+        <span class="bl-label-content"><textarea class="form-control" style="display:inline-block" disabled>{$plan['description']}</textarea></span>
+      </div>
+      <div class="bl-label">
+        <span class="bl-label-title">开始时间</span> 
+        <span class="bl-label-content">{$plan['starttime'] | date="Y-m-d", ###}</span>
+      </div>
+      <div class="bl-label">
+        <span class="bl-label-title">预计结束时间</span> 
+        <span class="bl-label-content">{$plan['endtime'] | date="Y-m-d", ###}</span>
+      </div>
+      <div class="bl-buttons">
+        <a href="/plan/editplan?planid={$plan['planid']}" type="button" class="btn btn-primary"><i class="fa fa-cog"></i>修改计划</a>
+        <button type="button" class="btn btn-info" data-toggle="modal" data-target="#add-progress-modal"><i class="fa fa-pencil-square-o"></i>填写进度</button>
+        <button type="button" class="btn btn-success " id="complete"><i class="fa fa-check"></i>完成计划</button>
+        <button type="button" class="btn btn-danger" id="giveup"><i class="fa fa-trash-o fa-lg"></i>放弃计划</button>
+      </div>
+    </div>
+    <div class="bl-progress" style="margin-bottom:10px;">
+      <h5 style="padding:20px;font-size:16px;font-weight:bold;">当前进度</h5>
+      <ul class="bl-progress-timeline">
+        <li class="bl-timeline-header">
+          <div class="btn btn-default">开始</div>
+        </li>
+        <foreach name="progressList" item="progress">
+        <li class="bl-timeline-item">
+          <div class="bl-timeline-wrap bl-timeline-info">
+            <span class="bl-timeline-date text-muted">{$progress['time'] | date="Y/m/d", ###}</span>
+            <div class="bl-timeline-content panel p-sm b-a">
+              <span class="arrow b-white left pull-top"></span>
+              <div>{$progress['content']}</div>
+          </div>
+        </li>
+        </foreach>
+      </ul>
+    </div>
+    </empty>
+  </div>
+</div>
+<div class="modal fade" id="giveup-modal" role="dialog" aria-labelledby="gridSystemModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="gridSystemModalLabel">放弃原因</h4>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="form-group">
+            <textarea class="form-control input-field" name="reason" placeholder="为什么放弃呢？可以保持沉默~"></textarea>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+        <button type="button" class="btn btn-primary" id="giveup-reason">保存</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="add-progress-modal" role="dialog" aria-labelledby="gridSystemModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="gridSystemModalLabel">填写进度</h4>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="form-group">
+            <label>时间</label>
+            <input type="text" readonly  name="progresstime" value="<?php echo date('Y-m-d', time());?>" class="form-control" id="progress-time">
+          </div>
+          <div class="form-group">
+            <label>进度内容</label>
+            <textarea class="form-control text-field" name="progresscontent" placeholder="请填写进度内容"></textarea>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+        <button type="button" class="btn btn-primary" id="add-progress">保存</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+$(function () {
+  $("#progress-time").datepicker({
+
+  }); 
+});
+
+</script>
+<script src="__JS__/plan.js"></script>
+<include file="./Application/Home/Public/Tpl/footer.html" />
+

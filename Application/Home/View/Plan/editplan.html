@@ -1,0 +1,139 @@
+<include file="./Application/Home/Public/Tpl/header.html" />
+<div id="bl-mypage-content">
+  <include file="./Application/Home/Public/Tpl/leftmenu.html" />
+  <div class="bl-mypage-middle">
+    <div class="bl-mypage-title">
+      <h4>编辑计划</h4>
+    </div>
+    <div class="form-group" style="margin-top:10px">
+      <label for="plan-name">计划名称</label>
+      <input type="text" name="title" value="{$plan['title']}" class="form-control input-field" id="plan-name" placeholder="请填写计划名称">
+      <input type="hidden" name="planid" value="{$plan['planid']}">
+    </div>
+    <div class="form-group">
+      <label>涉及到的资源</label>
+      <div class="sources" style="display:inline-block">
+        <volist name="plan['resources']" id="resource">
+          <button class="btn btn-default">{$resource['rname']}</button>
+        </volist>
+      </div>
+      <div class="bl-addplan-resources" style="display:inline-block">
+        <button class="btn btn-info" data-toggle="modal" data-target="#addplan-modal"><i style="color:#fff" class="fa fa-plus"></i></button>
+      </div>
+    </div>
+    <div class="form-group">
+      <label>分类</label>
+      <select class="form-control" name="category">
+        <foreach name="categoryList" item="category">
+        <if condition="$plan['category']['categoryid'] eq $category['categoryid']">
+        <option class="category" selected value="{$category['categoryid']}">{$category['cname']}</option>
+        <else />
+        <option class="category" value="{$category['categoryid']}">{$category['cname']}</option>
+        </if>
+        </foreach>
+      </select>
+    </div>
+    <div class="form-group">
+      <label>标签</label>
+      <div class="tags" style="display:inline-block">
+        <volist name="plan['tags']" id="tag">
+        <button class="btn btn-default bl-resource-tag" tagid="{$tag['signid']}"><i class="fa fa-tag">{$tag['signname']}</i></button>
+        </volist>
+      </div>
+      <div class="bl-addplan-resources" style="display:inline-block">
+        <button class="btn btn-info" data-toggle="modal" data-target="#tag-modal"><i style="color:#fff" class="fa fa-plus"></i></button>
+      </div>
+    </div>
+    <div class="form-group">
+      <label>简介</label>
+      <textarea id="plan-desc" name="plandesc" style="width:99%">{$plan['description']}</textarea>
+    </div>
+    <div class="form-group">
+      <label>开始时间</label>
+      <div class="form-group" >
+        <input type="text" class="form-control" id="start-time"  value="{$plan['starttime'] | date='Y-m-d', ###}" readonly name="starttime">
+      </div>
+    </div>
+    <div class="form-group">
+      <label>预计结束时间</label>
+      <div class="form-group">
+        <input type="text" class="form-control" name="endtime" id="end-time" readonly  value="{$plan['endtime'] | date='Y-m-d', ###}">
+      </div>
+    </div>
+    <div class=form-group" style="text-align:center;margin-top:20px;margin-top:10px;">
+      <button id="edit-plan" class="btn btn-success" >编辑计划</button>
+    </div>
+  </div>
+  <script>
+$(function() {
+  $("#start-time").datepicker({
+    onClose: function(selectedDate) {
+      $("#end-time").datepicker("option", "minDate", selectedDate)
+    }
+  });
+  $("#end-time").datepicker({
+    onClose: function(selectedDate) {
+      $("#start-time").datepicker("option", "maxDate", selectedDate)
+    }
+  });
+})
+  </script>
+</div>
+<script charset="utf-8" src="/editor/kindeditor.js"></script>
+<script charset="utf-8" src="/editor/lang/zh_CN.js"></script>
+<script>
+KindEditor.ready(function(K) {
+  window.editor = K.create('#plan-desc'); 
+});
+</script>
+<div class="modal fade" id="addplan-modal" role="dialog" aria-labelledby="gridSystemModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="gridSystemModalLabel">我的资源</h4>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row">
+            <foreach name="sourceList" item="source">
+            <label class="col-xs-6 col-sm-4">
+              <input type="checkbox" value="{$source['rid']}" name="source" source="{$source['rname']}">
+              <span class="source-name">{$source['rname']}</span>
+            </label>
+            </foreach>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+        <button type="button" class="btn btn-primary" id="save-sources" data-dismiss="modal">保存</button>
+      </div>
+    </div>
+  </div>
+</div><div class="modal fade" id="tag-modal" role="dialog" aria-labelledby="gridSystemModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="gridSystemModalLabel">标签</h4>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row">
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal" id="save-tags">保存</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="message" id="message">
+
+</div>
+<script src="__JS__/plan.js"></script>
+<include file="./Application/Home/Public/Tpl/footer.html" />
+

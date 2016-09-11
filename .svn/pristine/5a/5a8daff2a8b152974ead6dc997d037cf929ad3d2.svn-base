@@ -1,0 +1,30 @@
+<div class ="bl-mypage-right">
+  <div class="bl-mypage-friend">
+    <div class="bl-mypage-friend-title">
+      <i class="fa fa-users"></i>
+      好友列表
+      <i style="margin-left:70px;color:#669966" class="fa fa-user-plus"></i>
+    </div>
+    <div class="bl-friend-group"><i class="fa fa-angle-right"></i>&nbsp;&nbsp;&nbsp;用户组一
+      <ul>
+        <li><img class="img-circle" alter="好友头像" src="__IMG__/a0.jpg">&nbsp;turtle</li>
+        <li><img class="img-circle" alter="好友头像" src="__IMG__/a0.jpg">&nbsp;turtletl</li>
+        <li><img class="img-circle" alter="好友头像" src="__IMG__/a0.jpg">&nbsp;aorui</li>
+      </ul>
+    </div>
+
+    <div class="bl-friend-group"><i class="fa fa-angle-right"></i>&nbsp;&nbsp;&nbsp;用户组二
+
+      <ul>
+        <li><img class="img-circle" alter="好友头像" src="__IMG__/a0.jpg">&nbsp;turtle</li>
+        <li><img class="img-circle" alter="好友头像" src="__IMG__/a0.jpg">&nbsp;turtletl</li>
+        <li><img class="img-circle" alter="好友头像" src="__IMG__/a0.jpg">&nbsp;aorui</li>
+      </ul>
+    </div>
+    <div class="bl-friend-group"><i class="fa fa-angle-right"></i>&nbsp;&nbsp;&nbsp;用户组三</div>
+    <div class="bl-friend-group"><i class="fa fa-angle-right"></i>&nbsp;&nbsp;&nbsp;用户组四</div>
+
+
+  </div>
+</div>
+

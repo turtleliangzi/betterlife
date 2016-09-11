@@ -1,0 +1,63 @@
+<div class="bl-content-left">
+  <div style="background:url(__IMG__/a0.jpg) center center;background-size:cover">
+    <div class="bl-left-img-box">
+      <a class="bl-left-img">
+        <img class="img-circle img-responsive" src="__IMG__/a0.jpg">
+      </a>
+      <div class="bl-left-nickname">
+        <span class="bl-left-nickname-block">{$user['nickname']}</span>
+      </div>
+      <a class="btn btn-sm btn-info" style="padding-left:15px;padding-right:15px;">添加好友</a>
+    </div>
+  </div>
+  <div class="bl-left-friends">
+    <a class="" style="text-decoration:none;margin-bottom:20px;display:inline-block;color:#777;">
+      <span class="bl-left-friends-mount">100</span>
+      <em class="bl-left-friend-title">好友数</em>
+    </a>
+  </div>
+  <div class="bl-left-desc">
+    <p>简介</p>
+    <p>{$user['introduction']}</p>
+  </div>
+  <div class="bl-left-nav-box">
+    <div class="bl-left-nav">
+      <div class="bl-left-nav-title">
+        <i class="fa fa-calendar"></i>
+        我的计划
+        <i style="margin-left:120px;" class="fa fa-chevron-down"></i>
+      </div>
+      <ul>  
+        <li><i class="fa fa-angle-right"></i>&nbsp;&nbsp;&nbsp;<a href="/plan/planisdonelist">已完成</a></li>
+        <li><i class="fa fa-angle-right"></i>&nbsp;&nbsp;&nbsp;<a href="/mypage">正在进行</a></li>
+        <li><i class="fa fa-angle-right"></i>&nbsp;&nbsp;&nbsp;<a href="/plan/planwilldolist">将要进行</a></li>
+        <li><i class="fa fa-angle-right"></i>&nbsp;&nbsp;&nbsp;<a href="/plan/plangiveuplist">已放弃</a></li>
+      </ul>
+    </div>
+    <div class="bl-left-nav">
+      <div class="bl-left-nav-title">
+        <i class="fa fa-list-alt"></i>
+        我的文章
+        <i style="margin-left:120px;" class="fa fa-chevron-down"></i>
+      </div>
+      <ul>
+        <li><i class="fa fa-angle-right"></i>&nbsp;&nbsp;&nbsp;<a href="/article/briefsummarylist">小结</a></li>
+        <li><i class="fa fa-angle-right"></i>&nbsp;&nbsp;&nbsp;<a href="/article/essaylist">随笔</a></li>
+        <li><i class="fa fa-angle-right"></i>&nbsp;&nbsp;&nbsp;<a href="/article/summarylist">总结</a></li>
+      </ul>
+    </div>
+    <div class="bl-left-nav">
+      <div class="bl-left-nav-title">
+        <i class="fa fa-file-text-o"></i>
+        我的资源
+        <i style="margin-left:120px;" class="fa fa-chevron-down"></i>
+      </div>
+      <ul>
+        <li><i class="fa fa-angle-right"></i>&nbsp;&nbsp;&nbsp;<a href="/source/mysourcelist">资源库</a></li>
+        <li><i class="fa fa-angle-right"></i>&nbsp;&nbsp;&nbsp;<a href="/source/addsource">添加资源</a></li>
+      </ul>
+
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,124 @@
+<include file="./Application/Home/Public/Tpl/header.html" />
+<div id="bl-mypage-content">
+  <include file="./Application/Home/Public/Tpl/leftmenu.html" />
+  <div class="bl-mypage-middle">
+    <div class="bl-mypage-title">
+      <h4>{$title}</h4>
+    </div>
+    <if condition="$title eq '编辑总结' AND $article eq ''">
+    <div style="width:100%;text-align:center">
+      <p style="line-height:30px;font-size:24px;">该文章不存在～～</p>
+    </div>
+
+    <else />
+    <div class="form-group" style="margin-top:10px">
+      <label for="briefsummary-title"> 标题</label>
+      <input type="text" class="form-control" value="{$article['title']}" name="title" id="briefsummary-title" placeholder="请填写总结标题">
+      <input type="hidden" name="articleid" value="{$article['conclusionid']}">
+    </div>
+    <div class="form-group">
+      <label>来源于计划</label>
+      <select class="form-control" name="plan">
+        <volist name="planList" id="plan">
+        <if condition="$article['plan']['planid'] eq $plan['planid']">
+        <option value="{$plan['planid']}" selected>{$plan['title']}</option>
+        <else />
+        <option value="{$plan['planid']}">{$plan['title']}</option>
+        </if>
+        </volist>
+      </select>
+    </div>
+    <div class="form-group">
+      <label>分类</label>
+      <select class="form-control" name="category">
+        <option value="0">请选择分类</option>
+        <volist name="categoryList" id="category">
+        <if condition="$article['categorys']['categoryid'] eq $category['categoryid']">
+
+        <option class="category" selected value="{$category['categoryid']}">{$category['cname']}</option>
+        <else />
+        <option class="category" value="{$category['categoryid']}">{$category['cname']}</option>
+        </if>
+        </volist>
+      </select>
+    </div>
+    <div class="form-group">
+      <label>标签</label>
+      <div class="tags" style="display:inline-block">
+        <volist name="article['tag']" id="tag">
+          <button class="btn btn-default bl-resource-tag" tagid="{$tag['signid']}">
+            <i class="fa fa-tag"></i>
+            {$tag['signname']} 
+        </volist>
+      </div>
+      <div class="bl-addplan-resources" style="display:inline-block">
+        <button class="btn btn-info" data-toggle="modal" data-target="#tag-modal"><i style="color:#fff" class="fa fa-plus"></i></button>
+      </div>
+    </div>
+    <div class="form-group">
+      <label>是否分享</label>
+      <if condition="$article['share'] eq 1">
+      <label class="radio-inline">
+        <input type="radio" id="inlineRadio1"  name="share" value="0"> 否
+      </label>
+      <label class="radio-inline">
+        <input type="radio" checked id="inlineRadio2" name="share" value="1"> 是
+      </label>
+
+      <else />
+      <label class="radio-inline">
+        <input type="radio" id="inlineRadio1" checked name="share" value="0"> 否
+      </label>
+      <label class="radio-inline">
+        <input type="radio" id="inlineRadio2" name="share" value="1"> 是
+      </label>
+    </div>
+    </if>
+
+    <div class="form-group">
+      <label for="briefsummary-content">内容</label>
+      <textarea id="briefsummary-content" name="content" style="width:99%">{$article['content']}</textarea>
+    </div>
+    <div class=form-group" style="text-align:center;margin-top:20px;margin-bottom:10px;">
+      <if condition="$title eq '编辑总结'">
+      <button class="btn btn-success" id="edit-summary">编辑总结</button>
+
+      <else />
+      <button class="btn btn-success" id="add-summary">添加总结</button>
+      </if>
+    </div>
+    </if>
+  </div>
+</div>
+<script charset="utf-8" src="/editor/kindeditor.js"></script>
+<script charset="utf-8" src="/editor/lang/zh_CN.js"></script>
+<script>
+KindEditor.ready(function(K) {
+  window.editor = K.create('#briefsummary-content', {
+    minHeight:'200px', 
+  }); 
+});
+</script>
+<div class="modal fade" id="tag-modal" role="dialog" aria-labelledby="gridSystemModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="gridSystemModalLabel">标签</h4>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row">
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal" id="save-tags">保存</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="__JS__/article.js"></script>
+<include file="./Application/Home/Public/Tpl/footer.html" />
+

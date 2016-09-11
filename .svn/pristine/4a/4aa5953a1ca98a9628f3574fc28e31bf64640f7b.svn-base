@@ -1,0 +1,40 @@
+<include file="./Application/Home/Public/Tpl/header.html" />
+<div id="bl-mypage-content">
+  <include file="./Application/Home/Public/Tpl/leftmenu.html" />
+  <div class="bl-mypage-middle">
+    <h4>我的资源&nbsp;&nbsp; <small><i style="color:#669966" class="fa fa-folder-open"></i>{$folder['foldername']}</small></h4>
+    <empty name="sourceList">
+        <div style="width:100%;text-align:center">
+          <p style="line-height:30px;font-size:24px;">空空如也～～，赶快去添加资源吧!</p>
+        </div>
+
+    <else />
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>资源名</th>
+          <th>存放地</th>
+          <th>分类</th>
+          <th>标签</th>
+          <th>创建时间</th>
+          <th>操作</th>
+        </tr>
+      </thead>
+      <tbody>
+        <foreach name="sourceList" item="source" key="k">
+        <tr>
+          <td>{$k+1}</td>
+          <td><a href="/source/source?rid={$source['rid']}"><img class="img-circle" src="/Uploads/{$source['thumb']}" style="height:20px;width:20px;">&nbsp;&nbsp;{$source['rname']}</a></td>
+          <td>{$source['storeplace']}</td>
+          <td>{$source['category']['cname']}</td>
+          <td><volist name="source['tag']" id="tag">{$tag['signname']}、</volist></td>
+          <td>{$source['createtime'] | date="Y-m-d", ###}</td>
+          <td><a href="/source/addsource?rid={$source['rid']}">编辑</a></td>
+        </foreach>
+      </tbody>
+    </table>
+    </empty>
+  </div>
+</div>
+<include file="./Application/Home/Public/Tpl/footer.html" />

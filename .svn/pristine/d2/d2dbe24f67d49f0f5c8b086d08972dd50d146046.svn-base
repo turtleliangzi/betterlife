@@ -1,0 +1,432 @@
+[ 2015-08-30T00:34:55+08:00 ] 111.74.27.180 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+ERR: 无法加载模块:Favicon
+
+[ 2015-08-30T01:58:33+08:00 ] 157.55.39.129 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+ERR: 无法加载模块:Robots
+
+[ 2015-08-30T01:58:39+08:00 ] 157.55.39.129 /forum.php?gid=36
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+ERR: 无法加载模块:Forum
+
+[ 2015-08-30T07:10:46+08:00 ] 182.118.25.230 /archiver/?fid-37.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+ERR: 无法加载模块:Archiver
+
+[ 2015-08-30T07:39:58+08:00 ] 46.172.71.251 /rom-0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+ERR: 无法加载模块:Rom-0
+
+[ 2015-08-30T08:46:09+08:00 ] 188.72.26.189 /Ringing.at.your.dorbell!
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+ERR: 无法加载模块:Ringing.at.your
+
+[ 2015-08-30T08:46:12+08:00 ] 188.72.26.189 /Diagnostics.asp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+ERR: 无法加载模块:Diagnostics
+
+[ 2015-08-30T08:46:37+08:00 ] 131.117.224.51 /Ringing.at.your.dorbell!
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+ERR: 无法加载模块:Ringing.at.your
+
+[ 2015-08-30T08:46:40+08:00 ] 131.117.224.51 /Diagnostics.asp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+ERR: 无法加载模块:Diagnostics
+
+[ 2015-08-30T11:00:44+08:00 ] 121.42.0.36 /admin/control/wxpay.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-08-30T11:00:47+08:00 ] 121.42.0.36 /mobile/control/member_ncsaing.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+ERR: 无法加载模块:Mobile
+
+[ 2015-08-30T11:00:49+08:00 ] 121.42.0.36 /images/info.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+ERR: 无法加载模块:Images
+
+[ 2015-08-30T11:00:51+08:00 ] 121.42.0.36 /plus/task/Cahe/inCahe.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+ERR: 无法加载模块:Plus
+
+[ 2015-08-30T11:00:53+08:00 ] 121.42.0.36 /js/Code.asp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+ERR: 无法加载模块:Js
+
+[ 2015-08-30T11:00:54+08:00 ] 121.42.0.36 /admin/sd_md5.asp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-08-30T11:00:57+08:00 ] 121.42.0.36 /phpcms/languages/zh-cn/cnzz.lang.php?in=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+ERR: 无法加载模块:Phpcms
+
+[ 2015-08-30T11:00:58+08:00 ] 121.42.0.36 /uploadfile/2013/0425/cnzz.lang.php?in=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+ERR: 无法加载模块:Uploadfile
+
+[ 2015-08-30T11:01:01+08:00 ] 121.42.0.36 /uploadfile/2013/0418/cnzz.lang.php?in=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+ERR: 无法加载模块:Uploadfile
+
+[ 2015-08-30T11:01:03+08:00 ] 121.42.0.36 /core/api/taobao/3.1/api_b2b_3_1_csvfile.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+ERR: 无法加载模块:Core
+
+[ 2015-08-30T11:01:04+08:00 ] 121.42.0.36 /webs/include/helpers/cookie.helpea.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+ERR: 无法加载模块:Webs
+
+[ 2015-08-30T11:01:06+08:00 ] 121.42.0.36 /include/helpers/cookie.helpea.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+ERR: 无法加载模块:Include
+
+[ 2015-08-30T11:01:08+08:00 ] 121.42.0.36 /include/code/mp.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+ERR: 无法加载模块:Include
+
+[ 2015-08-30T11:01:10+08:00 ] 121.42.0.36 /inc/md5.asp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+ERR: 无法加载模块:Inc
+
+[ 2015-08-30T11:01:12+08:00 ] 121.42.0.36 /Lanrain/Lib/Model/User/Order_setMode.class.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+ERR: 无法加载模块:Lanrain
+
+[ 2015-08-30T11:01:14+08:00 ] 121.42.0.36 /external/widgets/advt/main.widget.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+ERR: 无法加载模块:External
+
+[ 2015-08-30T11:01:18+08:00 ] 121.42.0.36 /Cache/file_up.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+ERR: 无法加载模块:Cache
+
+[ 2015-08-30T11:01:19+08:00 ] 121.42.0.36 /languages/zh_cn/convert/shopex49.php?license_id=assert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+ERR: 无法加载模块:Languages
+
+[ 2015-08-30T11:01:21+08:00 ] 121.42.0.36 /Include/NoHackSql.Asp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+ERR: 无法加载模块:Include
+
+[ 2015-08-30T11:01:23+08:00 ] 121.42.0.36 /config/NoHackSql.Asp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+ERR: 无法加载模块:Config
+
+[ 2015-08-30T11:02:50+08:00 ] 121.42.0.36 /admin/control/wxpay.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-08-30T11:02:52+08:00 ] 121.42.0.36 /mobile/control/member_ncsaing.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+ERR: 无法加载模块:Mobile
+
+[ 2015-08-30T11:02:54+08:00 ] 121.42.0.36 /images/info.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+ERR: 无法加载模块:Images
+
+[ 2015-08-30T11:02:57+08:00 ] 121.42.0.36 /plus/task/Cahe/inCahe.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+ERR: 无法加载模块:Plus
+
+[ 2015-08-30T11:02:59+08:00 ] 121.42.0.36 /js/Code.asp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+ERR: 无法加载模块:Js
+
+[ 2015-08-30T11:03:01+08:00 ] 121.42.0.36 /admin/sd_md5.asp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-08-30T11:03:03+08:00 ] 121.42.0.36 /phpcms/languages/zh-cn/cnzz.lang.php?in=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+ERR: 无法加载模块:Phpcms
+
+[ 2015-08-30T11:03:05+08:00 ] 121.42.0.36 /uploadfile/2013/0425/cnzz.lang.php?in=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+ERR: 无法加载模块:Uploadfile
+
+[ 2015-08-30T11:03:07+08:00 ] 121.42.0.36 /uploadfile/2013/0418/cnzz.lang.php?in=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+ERR: 无法加载模块:Uploadfile
+
+[ 2015-08-30T11:03:10+08:00 ] 121.42.0.36 /core/api/taobao/3.1/api_b2b_3_1_csvfile.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+ERR: 无法加载模块:Core
+
+[ 2015-08-30T11:03:13+08:00 ] 121.42.0.36 /webs/include/helpers/cookie.helpea.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+ERR: 无法加载模块:Webs
+
+[ 2015-08-30T11:03:17+08:00 ] 121.42.0.36 /include/helpers/cookie.helpea.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+ERR: 无法加载模块:Include
+
+[ 2015-08-30T11:03:21+08:00 ] 121.42.0.36 /include/code/mp.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+ERR: 无法加载模块:Include
+
+[ 2015-08-30T11:03:24+08:00 ] 121.42.0.36 /inc/md5.asp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+ERR: 无法加载模块:Inc
+
+[ 2015-08-30T11:03:29+08:00 ] 121.42.0.36 /Lanrain/Lib/Model/User/Order_setMode.class.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+ERR: 无法加载模块:Lanrain
+
+[ 2015-08-30T11:03:32+08:00 ] 121.42.0.36 /external/widgets/advt/main.widget.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+ERR: 无法加载模块:External
+
+[ 2015-08-30T11:03:38+08:00 ] 121.42.0.36 /Cache/file_up.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+ERR: 无法加载模块:Cache
+
+[ 2015-08-30T11:03:41+08:00 ] 121.42.0.36 /languages/zh_cn/convert/shopex49.php?license_id=assert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+ERR: 无法加载模块:Languages
+
+[ 2015-08-30T11:03:42+08:00 ] 121.42.0.36 /Include/NoHackSql.Asp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+ERR: 无法加载模块:Include
+
+[ 2015-08-30T11:03:44+08:00 ] 121.42.0.36 /config/NoHackSql.Asp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+ERR: 无法加载模块:Config
+
+[ 2015-08-30T11:20:13+08:00 ] 111.74.27.180 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+ERR: 无法加载模块:Favicon
+
+[ 2015-08-30T12:09:12+08:00 ] 113.108.82.22 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-08-30T12:09:17+08:00 ] 113.108.82.22 /misc.php?mod=faq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+ERR: 无法加载模块:Misc
+
+[ 2015-08-30T13:38:08+08:00 ] 83.142.233.105 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+ERR: 无法加载模块:Robots
+
+[ 2015-08-30T16:34:04+08:00 ] 192.0.17.146 /images/qq/qqkf2/Kf_bg03_03.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+ERR: 无法加载模块:Images
+
+[ 2015-08-30T16:34:05+08:00 ] 192.0.17.146 /plus/img/wbg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+ERR: 无法加载模块:Plus
+
+[ 2015-08-30T17:20:14+08:00 ] 121.42.0.17 /webscan38502863.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+ERR: 无法加载模块:Webscan38502863
+
+[ 2015-08-30T17:20:24+08:00 ] 121.42.0.17 /webscan38502863.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+ERR: 无法加载模块:Webscan38502863
+
+[ 2015-08-30T17:20:26+08:00 ] 121.42.0.17 /jmx-console/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+ERR: 无法加载模块:Jmx-console
+
+[ 2015-08-30T17:20:28+08:00 ] 121.42.0.17 /web-console/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+ERR: 无法加载模块:Web-console
+
+[ 2015-08-30T17:20:30+08:00 ] 121.42.0.17 /invoker/JMXInvokerServlet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+ERR: 无法加载模块:Invoker
+
+[ 2015-08-30T17:20:32+08:00 ] 121.42.0.17 /invoker/EJBInvokerServlet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+ERR: 无法加载模块:Invoker
+
+[ 2015-08-30T17:20:34+08:00 ] 121.42.0.17 /status/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+ERR: 无法加载模块:Status
+
+[ 2015-08-30T17:20:36+08:00 ] 121.42.0.17 /server-status/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+ERR: 无法加载模块:Server-status
+
+[ 2015-08-30T17:20:48+08:00 ] 121.42.0.17 /web-console/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+ERR: 无法加载模块:Web-console
+
+[ 2015-08-30T17:20:49+08:00 ] 121.42.0.17 /jmx-console/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+ERR: 无法加载模块:Jmx-console
+
+[ 2015-08-30T17:20:51+08:00 ] 121.42.0.17 /invoker/JMXInvokerServlet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+ERR: 无法加载模块:Invoker
+
+[ 2015-08-30T17:20:53+08:00 ] 121.42.0.17 /invoker/EJBInvokerServlet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+ERR: 无法加载模块:Invoker
+
+[ 2015-08-30T17:20:55+08:00 ] 121.42.0.17 /status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+ERR: 无法加载模块:Status
+
+[ 2015-08-30T17:20:57+08:00 ] 121.42.0.17 /server-status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+ERR: 无法加载模块:Server-status
+
+[ 2015-08-30T17:20:59+08:00 ] 121.42.0.17 /manager/html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+ERR: 无法加载模块:Manager
+
+[ 2015-08-30T18:05:32+08:00 ] 111.74.27.180 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+ERR: 无法加载模块:Favicon
+
+[ 2015-08-30T18:05:32+08:00 ] 111.74.27.180 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+ERR: 无法加载模块:Favicon
+
